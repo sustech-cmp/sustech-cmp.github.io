@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>示例文章</title>
+    <url>/2024-12-16/example-article/</url>
+    <content><![CDATA[<p>这是一篇示例文章。下面展示 Markdown 功能。</p>
+<p>展开阅读更多</p>
+<span id="more"></span>
+<p>数学公式：<span class="math inline">\(a ^ 2 + b ^ 2 = c ^
+2\)</span></p>
+<p>字体：<strong>黑体</strong>、<em>斜体</em>、<del>删除线</del></p>
+<p>C++ 代码块：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n = <span class="number">0</span>;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; ++i) &#123;</span><br><span class="line">        std::cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="标题-1">标题 1</h1>
+<p>列表展示如下：</p>
+<ol type="1">
+<li>项目 A</li>
+<li>项目 B</li>
+</ol>
+<h2 id="小标题">小标题</h2>
+<p>文本展示。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>如何在 VS Code 上创建自己的第一个 OpenGL 窗口</title>
     <url>/2024-12-03/how-to-make-a-opengl-program-in-vscode/</url>
     <content><![CDATA[<p>这篇文章介绍如何在 VS Code 上配置 OpenGL
@@ -175,26 +196,5 @@ href="https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/1.2.
         <tag>OpenGL</tag>
         <tag>图形编程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>示例文章</title>
-    <url>/2024-12-16/example-article/</url>
-    <content><![CDATA[<p>这是一篇示例文章。下面展示 Markdown 功能。</p>
-<p>展开阅读更多</p>
-<span id="more"></span>
-<p>数学公式：<span class="math inline">\(a ^ 2 + b ^ 2 = c ^
-2\)</span></p>
-<p>字体：<strong>黑体</strong>、<em>斜体</em>、<del>删除线</del></p>
-<p>C++ 代码块：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n = <span class="number">0</span>;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; ++i) &#123;</span><br><span class="line">        std::cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="标题-1">标题 1</h1>
-<p>列表展示如下：</p>
-<ol type="1">
-<li>项目 A</li>
-<li>项目 B</li>
-</ol>
-<h2 id="小标题">小标题</h2>
-<p>文本展示。</p>
-]]></content>
   </entry>
 </search>
