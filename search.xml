@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>如何在 VS Code 上创建自己的第一个 OpenGL 窗口</title>
+    <url>/2024-12-03/how-to-make-a-opengl-program-in-vscode/</url>
+    <content><![CDATA[<p>这篇文章介绍如何在 VS Code 上配置 OpenGL
+环境，并运行自己的第一个图形窗口。</p>
+<blockquote>
+<p>系统环境：Windows 11 (64 位)，软件环境：VS Code，使用 g++ 编译。</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="我参考的教程资料">我参考的教程资料</h1>
+<p>一、VS Code 上面如何配置 Build Tasks：<a
+href="https://www.youtube.com/watch?v=QNFGtTbTH-A&amp;ab_channel=VisualStudioCode">YouTube
+快速教程</a>。Build Tasks 可以用来管理项目文件。</p>
+<p>二、LearnOpenGL 网站上的配置教程（比较冗长）：<a
+href="https://learnopengl.com/Getting-started/Creating-a-window">链接</a>，<a
+href="https://learnopengl-cn.github.io/01%20Getting%20started/02%20Creating%20a%20window/">中文翻译版本</a>；</p>
+<p>文章中会用到的 <a
+href="https://learnopengl.com/Getting-started/Hello-Window">创建第一个窗口的代码</a>。</p>
+<p>三、OpenGL 的“Window Toolkits”都有哪些：<a
+href="https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs#Context/Window_Toolkits">官方文档</a>。</p>
+<p>四、出现“undefined reference to `CreateDCW@16'”错误的解决方法：<a
+href="https://stackoverflow.com/questions/22008845/glfw-mingw-link-error">StackOverflow
+链接</a>。（解决方案：加入 <code>-lgdi32</code>）</p>
+<h1 id="目录">目录</h1>
+<ul>
+<li>关于 <code>g++</code> 的配置问题，确认配置正确。</li>
+<li>如何下载 OpenGL 相关的各种文件：GLFW / freeglut / GLAD
+的头文件（<code>.h</code>）和库文件（<code>.o</code>），GLAD 的
+<code>glad.c</code> 文件。</li>
+<li>如何配置 <code>include</code> 和 <code>lib</code> 目录。</li>
+<li>如何在 VS Code 里创建 Build Tasks 配置文件。</li>
+<li>Build Tasks 文件应该怎么写。</li>
+<li>编译自己的第一个窗口程序。</li>
+</ul>
+<h1 id="一关于-g-的配置问题">一、关于 g++ 的配置问题</h1>
+<p>我使用的是 msys64 下面的 mingw64。</p>
+<p>假如 msys64 的软件根目录为
+<code>D:\Software\msys64\</code>，那么我使用的 <code>g++.exe</code> 位于
+<code>D:\Software\msys64\mingw64\bin</code> 下面。</p>
+<p>为了让 VS Code 找到 <code>g++.exe</code>，需要配置 Path 环境变量。在
+Windows 的环境变量设置里面，加入
+<code>D:\Software\msys64\mingw64\bin</code> 即可。</p>
+<h1 id="二下载-opengl-相关的各种文件">二、下载 OpenGL
+相关的各种文件</h1>
+<p>需要下载的文件有：</p>
+<ol type="1">
+<li>freeglut，内含一个文件夹 <code>GL</code>，下面有 5 个
+<code>.h</code> 文件：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GL\freeglut.h</span><br><span class="line">GL\freeglut_ext.h</span><br><span class="line">GL\freeglut_std.h</span><br><span class="line">GL\freeglut_ucall.h</span><br><span class="line">GL\glut.h</span><br></pre></td></tr></table></figure>
+<p>freeglut 从这里下载：<a
+href="https://freeglut.sourceforge.net/">链接</a>，在 Stable Releases
+栏目下面，找到最新版本下载即可。</p>
+<p>解压压缩包，将会在 <code>include</code> 文件夹下面找到这个
+<code>GL</code> 文件夹。<strong>将来这个 GL 文件夹将会被整个地放入 g++
+的 include 目录里面。</strong>详见第三部分。</p>
+<ol start="2" type="1">
+<li>GLFW，内含一个文件夹 <code>GLFW</code>（包含 <code>.h</code>
+文件）和一个文件夹 <code>lib-mingw-w64</code>（包含 <code>.dll</code> 和
+<code>.a</code> 库文件）。</li>
+</ol>
+<p><code>GLFW</code> 文件夹下面有：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GLFW\glfw3.h</span><br><span class="line">GLFW\glfw3native.h</span><br></pre></td></tr></table></figure>
+<p><code>lib-mingw-w64</code> 文件夹下面有：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lib-mingw-w64\glfw3.dll</span><br><span class="line">lib-mingw-w64\libglfw3.a</span><br><span class="line">lib-mingw-w64\libglfw3dll.a</span><br></pre></td></tr></table></figure>
+<p>GLFW 从这里下载：<a
+href="https://www.glfw.org/download.html">链接</a>，在 Windows
+pre-compiled binaries 栏目下面，找到 64-bit Windows binaries。</p>
+<p>解压压缩包之后，找到 <code>include</code> 文件夹里面的
+<code>GLFW</code>。<strong>将来这个 GLFW 文件夹将会被整个地放入 include
+目录里面。</strong></p>
+<p>再找到 <code>lib-mingw-w64</code>。<strong>将来这个 .dll 文件和两个
+.a 文件将会放到 lib 目录里面。</strong>详见第三部分。</p>
+<ol start="3" type="1">
+<li>GLAD，在<a
+href="https://learnopengl.com/Getting-started/Creating-a-window">这个教程</a>这里找到下载的方法。</li>
+</ol>
+<figure>
+<img src="image-20241203223646282.png" alt="image-20241203223646282" />
+<figcaption aria-hidden="true">image-20241203223646282</figcaption>
+</figure>
+<p>注意上面的这些要求。下面展示应该怎么填：</p>
+<figure>
+<img src="image-20241203223942014.png" alt="image-20241203223942014" />
+<figcaption aria-hidden="true">image-20241203223942014</figcaption>
+</figure>
+<p>点击 Generate 生成一个压缩包。</p>
+<figure>
+<img src="image-20241203224009402.png" alt="image-20241203224009402" />
+<figcaption aria-hidden="true">image-20241203224009402</figcaption>
+</figure>
+<p>压缩包里面有一个 <code>include</code> 文件夹和一个 <code>src</code>
+文件夹。<strong>将来 include 文件夹里的东西要放入 g++ 的 include
+目录中，src 文件夹里面的 glad.c
+将会作为项目的一部分进行编译。</strong></p>
+<h1 id="三如何配置-include-和-lib-目录">三、如何配置 include 和 lib
+目录</h1>
+<p>我在 D 盘下创建了一个自己的文件夹
+<code>D:\myprograms\cpp</code>，下面包括：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">D:\myprograms\cpp\include\</span><br><span class="line">D:\myprograms\cpp\lib\</span><br></pre></td></tr></table></figure>
+<p>以后，就可以将自己需要的第三方库文件放到这里面。</p>
+<p>现在，把这两个目录分别加入环境变量 CPLUS_INCLUDE_PATH 和 LIBRARY_PATH
+中：</p>
+<figure>
+<img src="image-20241203224613420.png" alt="image-20241203224613420" />
+<figcaption aria-hidden="true">image-20241203224613420</figcaption>
+</figure>
+<p>之后，每次调用 <code>g++ myfile.cpp -o myfile.exe</code>
+的时候，就会自动把这两个文件夹作为 include 目录和 lib 目录了。</p>
+<p><strong>接下来把刚刚下载的文件放进去</strong>。</p>
+<figure>
+<img src="image-20241203224754372.png" alt="image-20241203224754372" />
+<figcaption aria-hidden="true">image-20241203224754372</figcaption>
+</figure>
+<figure>
+<img src="image-20241203224818208.png" alt="image-20241203224818208" />
+<figcaption aria-hidden="true">image-20241203224818208</figcaption>
+</figure>
+<p>如上图所示。文件就配置好了。</p>
+<h1 id="四如何创建-vs-code-的-build-tasks-文件">四、如何创建 VS Code 的
+Build Tasks 文件</h1>
+<p>VS Code 官方在 YouTube 上提供了一个创建 Build Tasks 的教程：<a
+href="https://www.youtube.com/watch?v=QNFGtTbTH-A&amp;ab_channel=VisualStudioCode">视频链接</a>。下面我也会给出教程。</p>
+<p>首先在 VS Code 中打开一个文件夹。我这里是 simplefunc
+这个文件夹。创建一个 <code>.cpp</code> 文件之后，选择“Terminal -&gt;
+Configure Default Build Task...”：</p>
+<figure>
+<img src="f5c02ad88974f37f77b38aff795078a1.png"
+alt="f5c02ad88974f37f77b38aff795078a1" />
+<figcaption
+aria-hidden="true">f5c02ad88974f37f77b38aff795078a1</figcaption>
+</figure>
+<p>将会弹出如下界面：</p>
+<figure>
+<img src="image-20241203225532092.png" alt="image-20241203225532092" />
+<figcaption aria-hidden="true">image-20241203225532092</figcaption>
+</figure>
+<p>此时，选择 C/C++: g++.exe build active file 这个选项。由于我已经将
+<code>D:\Software\msys64\mingw64\bin\</code> 加入到 Path
+环境变量中，所以 VS Code 自动找到了
+<code>g++.exe</code>。点击选项之后，VS Code 将会自动生成一份
+<code>tasks.json</code> 文件：</p>
+<figure>
+<img src="image-20241203225823307.png" alt="image-20241203225823307" />
+<figcaption aria-hidden="true">image-20241203225823307</figcaption>
+</figure>
+<p>这就是我们想要的配置文件了。</p>
+<h1 id="五怎么配置需要的编译命令">五、怎么配置需要的编译命令</h1>
+<p>这里给出我的 <code>tasks.json</code>
+配置，注释里逐一写出了各个参数的含义。</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="comment">// .vscode\tasks.json</span></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;tasks&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppbuild&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C/C++: g++.exe build project with OpenGL&quot;</span><span class="punctuation">,</span> <span class="comment">// The name of this build task</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;D:\\Software\\msys64\\mingw64\\bin\\g++.exe&quot;</span><span class="punctuation">,</span> <span class="comment">// Using g++.exe as the compiler</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;-fdiagnostics-color=always&quot;</span><span class="punctuation">,</span> <span class="comment">// Enable colorful diagnostics for compiler warning/error messages</span></span><br><span class="line">                <span class="string">&quot;-Wall&quot;</span><span class="punctuation">,</span> <span class="comment">// Output warnings as much as possible</span></span><br><span class="line">                <span class="string">&quot;-std=c++11&quot;</span><span class="punctuation">,</span> <span class="comment">// Using C++ 11 language standard</span></span><br><span class="line">                <span class="string">&quot;-g&quot;</span><span class="punctuation">,</span> <span class="comment">// Enable debugging flag</span></span><br><span class="line">                <span class="string">&quot;$&#123;file&#125;&quot;</span><span class="punctuation">,</span> <span class="comment">// The filename of .cpp file</span></span><br><span class="line">                <span class="string">&quot;glad.c&quot;</span><span class="punctuation">,</span> <span class="comment">// Compiling glad.c together with the .cpp file in the project</span></span><br><span class="line">                <span class="string">&quot;-o&quot;</span><span class="punctuation">,</span> <span class="comment">// Output executable file</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;\\..\\bin\\$&#123;fileBasenameNoExtension&#125;.exe&quot;</span><span class="punctuation">,</span> <span class="comment">// If .cpp files are in D:\projects\simplefunc\src folder, then the output .exe file will be in D:\projects\simplefunc\bin folder.</span></span><br><span class="line">                <span class="comment">// The following arguments are needed for the OpenGL library</span></span><br><span class="line">                <span class="string">&quot;-lfreeglut&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lopengl32&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lglu32&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lglew32&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lglfw3&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lgdi32&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;problemMatcher&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;$gcc&quot;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;detail&quot;</span><span class="punctuation">:</span> <span class="string">&quot;compiler: D:\\Software\\msys64\\mingw64\\bin\\g++.exe&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>注意如果出现以下报错，有可能是因为没有添加 <code>"-lgdi32"</code>
+参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ld.exe: ...... win32_monitor.:(.text+0x11f): undefined reference to `__imp_CreateDCW&#x27;</span><br><span class="line">ld.exe: ...... win32_monitor.:(.text+0x15e): undefined reference to `__imp_GetDeviceCaps&#x27;</span><br><span class="line">ld.exe: ...... win32_monitor.:(.text+0x1b4): undefined reference to `__imp_DeleteDC&#x27;</span><br><span class="line">ld.exe: ...... win32_monitor.:(.text+0x30b): undefined reference to `__imp_GetDeviceCaps&#x27;</span><br><span class="line">ld.exe: ...... win32_monitor.:(.text+0x95b): undefined reference to `__imp_GetDeviceCaps&#x27;</span><br><span class="line">ld.exe: ...... win32_monitor.:(.text+0xaeb): undefined reference to `__imp_GetDeviceCaps&#x27;</span><br><span class="line">.........................</span><br></pre></td></tr></table></figure>
+<h1 id="六编译自己的第一个窗口程序">六、编译自己的第一个窗口程序</h1>
+<p>把<a
+href="https://learnopengl.com/Getting-started/Hello-Window">“Hello
+Window”教程</a>最后的这段<a
+href="https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/1.2.hello_window_clear/hello_window_clear.cpp">程序</a>复制到项目目录下的
+<code>main.cpp</code> 里面。</p>
+<p>按 Ctrl + Shift + P 调出命令面板，输入 Tasks: Run Build Task
+编译，就可以编译出程序文件啦！</p>
+<p>点击程序，就可以看到一个绿色的小窗口。大功告成！</p>
+<figure>
+<img src="image-20241203234820460.png" alt="image-20241203234820460" />
+<figcaption aria-hidden="true">image-20241203234820460</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>计算机图形学</category>
+      </categories>
+      <tags>
+        <tag>OpenGL</tag>
+        <tag>图形编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>示例文章</title>
+    <url>/2024-12-16/example-article/</url>
+    <content><![CDATA[<p>这是一篇示例文章。下面展示 Markdown 功能。</p>
+<p>展开阅读更多</p>
+<span id="more"></span>
+<p>数学公式：<span class="math inline">\(a ^ 2 + b ^ 2 = c ^
+2\)</span></p>
+<p>字体：<strong>黑体</strong>、<em>斜体</em>、<del>删除线</del></p>
+<p>C++ 代码块：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n = <span class="number">0</span>;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; ++i) &#123;</span><br><span class="line">        std::cout &lt;&lt; i &lt;&lt; <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="标题-1">标题 1</h1>
+<p>列表展示如下：</p>
+<ol type="1">
+<li>项目 A</li>
+<li>项目 B</li>
+</ol>
+<h2 id="小标题">小标题</h2>
+<p>文本展示。</p>
+]]></content>
+  </entry>
+</search>
