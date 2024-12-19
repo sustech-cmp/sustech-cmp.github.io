@@ -2,7 +2,7 @@
 
 ## Physics Branch
 
-The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 10, 2025, at the Southern University of Science and Technology. This student-organized initiative seeks to facilitate inter-institutional academic exchange and will feature a diverse array of presentations encompassing topics such as Cosmology, Field Theory and Gravity. The program includes lectures delivered by nine esteemed professors and researchers, as well as over ten student presentations representing 10 universities and research institutes.
+The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 10, 2025, at the Southern University of Science and Technology. This student-organized initiative seeks to facilitate inter-institutional academic exchange and will feature a diverse array of presentations encompassing topics such as Cosmology, Field Theory, Quantum Information and Gravity. The program includes lectures delivered by nine esteemed professors and researchers, as well as over ten student presentations representing 10 universities and research institutes.
 
 ### Speakers
 
