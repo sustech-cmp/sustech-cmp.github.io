@@ -44,6 +44,14 @@ We will host real-time online meetings, and recordings will be uploaded to [bili
 
 ![Group QR](./group-qr.jpg)
 
+### Contact
+
+Yunke Zhao
+
+- Cellphone: 19935182993
+- e-mail: [12210129@mail.sustech.edu.cn](mailto:12210129@mail.sustech.edu.cn)
+- QQ: 2267065543
+
 ### Poster
 
 ![Poster](./poster.jpg)
