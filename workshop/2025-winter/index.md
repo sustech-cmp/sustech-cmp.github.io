@@ -95,6 +95,10 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
 
 **Abstract:** In this work, we revisit the approach with the covariant phase space formalism for the asymptotic symmetry analysis in the pure AdS<sub>3</sub> gravity. We modify the approach to a version which is exactly in the framework of Noether's theorem. The key point in the modification is to take a systematical treatment of the boundary effects.
 
+In particular, we start from defining the pure AdS<sub>3</sub> gravity in Lagrangian formalism, where we adopt proper asymptotic boundary conditions, and we take holographic renormalization in the off-shell level. We then follow Noether's theorem step by step with a careful treatment of the boundary terms.
+
+Following our modified approach, we get the following two results. First, we show that the asymptotic symmetries are indeed symmetries of the pure AdS<sub>3</sub> gravity in the sense of Noether's theorem. Second, we compute the associated charges of the asymptotic symmetries with the expression of Noether charge, which reproduces the same result from the ordinarily used approach with the covariant phase space formalism.
+
 **Biography:** Zhe Feng is a Master's student under the supervision of Prof. Jie-qiang Wu at the Institute of Theoretical Physics, Chinese Academy of Sciences. He obtained his B.Sc. in Physics from Hohai University in 2024. His research focuses on the AdS/CFT correspondence and quantum gravity.
 
 #### 2. Quantum Metrology with Many-Body States – Hu Zhiyao (胡知遥)
