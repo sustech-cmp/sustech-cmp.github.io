@@ -28,68 +28,7 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
 - **Jiayue Yang** _University of Waterloo & Perimeter Institute_
 - **Yutao Ji, Hongbo Lin, Allan Mo, Qiongyu Qi, Renjie Tong, Jian Yao, Yunke Zhao** _Southern University of Science and Technology_
 
-### Schedule
-
-<table>
-    <thead>
-        <tr>
-            <th style="text-align:center">Time</th>
-            <th style="text-align:center">Jan. 10</th>
-            <th style="text-align:center">Jan. 11</th>
-            <th style="text-align:center">Jan. 12</th>
-            <th style="text-align:center">Jan. 13</th>
-            <th style="text-align:center">Jan. 14</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="text-align:center">10:00-12:00</td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-        </tr>
-        <tr>
-            <td style="text-align:center">12:00-14:00</td>
-            <td style="text-align:center" colspan=5>Lunch</td>
-        </tr>
-        <tr>
-            <td style="text-align:center">14:00-16:00</td>
-            <td style="text-align:center">Xinan Zhou</td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-        </tr>
-        <tr>
-            <td style="text-align:center">16:00-17:00</td>
-            <td style="text-align:center" colspan=5>Tea Break</td>
-        </tr>
-        <tr>
-            <td style="text-align:center">17:00-18:00</td>
-            <td style="text-align:center">Yin Li</td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-        </tr>
-        <tr>
-            <td style="text-align:center">18:00-19:00</td>
-            <td style="text-align:center" colspan=5>Dinner</td>
-        </tr>
-        <tr>
-            <td style="text-align:center">19:00-20:00</td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-            <td style="text-align:center"></td>
-        </tr>
-    </tbody>
-</table>
-
----
+### Topics
 
 #### 1. Noether's Theorem and AdS<sub>3</sub> Gravity - Zhe Feng (冯哲)
 
@@ -154,30 +93,123 @@ Reference: arXiv:2405.19077.
 
 **Biography:** Prof. Xinan Zhou did his undergraduate studies at University of Science and Technology of China, and obtained his PhD from the C. N. Yang Institute for Theoretical Physics at Stony Brook University in 2018. From 2018 to 2021, he was a postdoc fellow at the Princeton Center for Theoretical Science in Princeton University. He joined the Kavli Institute for Theoretical Sciences in University of Chinese Academy of Sciences in 2021 and has also been a visiting Assistant Professor at ShanghaiTech University since 2023. Prof. Zhou has published more than 30 papers with over 2000 citations. He has made original contributions to the computation of conformal correlators in the context of AdS/CFT and the development of new analytic tools for studying conformal field theories. He was awarded the 2023 ICTP Prize for these contributions.
 
-### Registration
+#### 8. Introduction to observational cosmology: geometric constraints - Qinxun Li (李秦埙)
+
+**Abstract:** This is a very concentrated introduction to cosmology. In this talk, I will introduce most of basic ideas of modern cosmology. We will start with the simplest formulation to the universe in the general relativity, then derive the equations of motion of background spacetime (Freedman equations). After that, the fundamentals of dark matter and dark energy will be introduced. With the cosmological models in hand, I will derive the distance-redshift relations and talk about the geometric probes of cosmology: Supernova and Baryon Acoustic Oscillation. I would suggest audience to watch my previous talk in this workshop (available on bilibili)
+
+**Biography:** Qinxun Li is a second year graduate student in Department of Physics and Astronomy, University of Utah. He works with Prof. Kyle Dawson on Baryon Acoustic Oscillation (BAO). He involves in the BAO analysis of Dark Energy Spectroscopic Instrument. Before that, he got his bachelor degree in astronomy from University of Science and Technology of China.
+
+#### 9. Holomorphic quasi-modular bootstrap, defects and mirror symmetry - Yiwen Pan (潘逸文)
+
+**Abstract:** Classifying conformal field theory is an interesting topic in both theoretical physics and mathematics. In this talk we will discuss a particular approach to classifying 2d chiral symmetry algebra of 2d CFTs, referred to as the holomorphic (quasi)-modular bootstrap. Such an approach has intriguing connection to 4d $\mathcal{N} = 2$ superconformal field theories, non-local operators and geometry of Hitchin system moduli space.
+
+**Biography:** Yiwen Pan received his Bachelor degree from Sun Yat-sen University, and later the doctoral degree in physics from Stony Brook University. He worked as a postdoc in Uppsala University in Sweden, and later joined the School of Physics at Sun Yat-sen University. His research interests center around supersymmetric field theory, exactly computable observables and dualities, conformal field theory and chiral algebra, and related topics in mathematical physics.
+
+![Poster](./poster.jpg)
+
+---
+
+## Math Branch
+
+The Workshop of Mathematics and Physics at SouthernUniversity of Science and Technology aims to cultivatepresentation skills and promote academic exchange. Themathematical part will feature talks on topics including p-adicHodge theory, algebraic topology, mathematical physics, andnumber theory.We warmly welcome your participation and
+guidance!
+
+### Speakers
+
+#### Professors
+
+- **Yong Hu** _Southern University of Science and Technology_
+- **Yifei Zhu** _Southern University of Science and Technology_
+
+#### Students
+
+- **Zhou Fang** _Southern University of Science and Technology_
+- **Shenguanlin Lin** _Southern University of Science and Technology_
+- **Zijie Wen** _Southern University of Science and Technology_
+- **Xiaowei Ye** _Polytech, Paris_
+- **Yuyang Zhang** _Southern University of Science and Technology_
+
+![Math Poster](./math-poster.png)
+
+## Registration
 
 We welcome teachers/students from other colleges and institutes to attend offline. Please fill in the registration form for college entrance and further affairs.
 
 ![Registration Form](./reg-qr.jpg)
 
-### Online Attendance
+## Timetable
+
+> More to be announced
+
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:center">Time</th>
+            <th style="text-align:center">Jan. 10</th>
+            <th style="text-align:center">Jan. 11</th>
+            <th style="text-align:center">Jan. 12</th>
+            <th style="text-align:center">Jan. 13</th>
+            <th style="text-align:center">Jan. 14</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center">10:00-12:00</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">12:00-14:00</td>
+            <td style="text-align:center" colspan=5>Lunch</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">14:00-16:00</td>
+            <td style="text-align:center">Xinan Zhou</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">16:00-17:00</td>
+            <td style="text-align:center" colspan=5>Tea Break</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">17:00-18:00</td>
+            <td style="text-align:center">Yin Li</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+        </tr>
+        <tr>
+            <td style="text-align:center">18:00-19:00</td>
+            <td style="text-align:center" colspan=5>Dinner</td>
+        </tr>
+        <tr>
+            <td style="text-align:center">19:00-20:00</td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center"></td>
+        </tr>
+    </tbody>
+</table>
+
+## Online Attendance
 
 We will host real-time online meetings, and recordings will be uploaded to [bilibili](https://space.bilibili.com/2050647467). For in-time annuncement, please join the QQ Group
 
 ![Group QR](./group-qr.jpg)
 
-### Contact
+## Contact
 
 Yunke Zhao
 
 - Cellphone: 19935182993
 - e-mail: [12210129@mail.sustech.edu.cn](mailto:12210129@mail.sustech.edu.cn)
 - QQ: 2267065543
-
-### Poster
-
-![Poster](./poster.jpg)
-
-## Math Branch
-
-**TBA.**
