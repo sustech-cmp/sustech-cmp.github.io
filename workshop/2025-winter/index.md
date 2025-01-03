@@ -1,4 +1,4 @@
-# SUSTech CMP Workshop - 2025 Winter
+# SUSTech Club of Mathematics and Physics Workshop - 2025 Winter
 
 ## Physics Branch
 
@@ -10,24 +10,31 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
 
 #### Professors & Researchers
 
-- **Fa Peng Huang** _Sun Yat-sen University_
-- **Hai Lin** _Southeast University_
-- **Yiwen Pan** _Sun Yat-sen University_
-- **Cheng Peng** _University of Chinese Academy of Sciences_
-- **Zhongzhi Xianyu** _Tsinghua University_
-- **Peng Ye** _Sun Yat-sen University_
-- **Xinan Zhou** _Kavli ITS-UCAS & ShanghaiTech_
-- **Yang Zhou** _Fudan University_
+- **Fa Peng Huang 黄发朋** _Sun Yat-sen University_
+- **Hai Lin 林海** _Southeast University_
+- **Yiwen Pan 潘逸文** _Sun Yat-sen University_
+- **Cheng Peng 彭程** _University of Chinese Academy of Sciences_
+- **Zhongzhi Xianyu 鲜于中之** _Tsinghua University_
+- **Peng Ye 叶鹏** _Sun Yat-sen University_
+- **Xinan Zhou 周稀南** _Kavli ITS-UCAS & ShanghaiTech_
+- **Yang Zhou 周洋** _Fudan University_
 
 #### Students
 
-- **Zhe Feng** _University of Chinese Academy of Sciences_
-- **Zhiyao Hu** _University of Chicago_
-- **Qinxun Li** _University of Utah_
-- **Junkai Wang** _Nanjing University_
-- **Qi Yang** _Guangxi University_
-- **Jiayue Yang** _University of Waterloo & Perimeter Institute_
-- **Yutao Ji, Hongbo Lin, Allan Mo, Qiongyu Qi, Renjie Tong, Jian Yao, Yunke Zhao** _Southern University of Science and Technology_
+- **Zhe Feng 冯哲** _University of Chinese Academy of Sciences_
+- **Zhiyao Hu 胡知遥** _University of Chicago_
+- **Qinxun Li 李秦埙** _University of Utah_
+- **Junkai Wang 王俊凯** _Nanjing University_
+- **Qi Yang 杨祺** _Guangxi University_
+- **Jiayue Yang 杨佳悦** _University of Waterloo & Perimeter Institute_
+- _Southern University of Science and Technology_
+  - **Yutao Ji 冀宇韬**
+  - **Hongbo Lin 林宏博**
+  - **Allan Mo 莫雨波**
+  - **Qiongyu Qi 祁琼宇**
+  - **Renjie Tong 佟仁杰**
+  - **Jian Yao 姚健**
+  - **Yunke Zhao 赵云柯**
 
 ### Timetable
 
@@ -47,7 +54,7 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
             <td style="text-align:center" rowspan=2>10:00-12:00 李秦埙</td>
             <td style="text-align:center">9:30-10:30 杨佳悦</td>
             <td style="text-align:center">9:45-10:45 佟仁杰</td>
-            <td style="text-align:center" rowspan=2>10:00-12:00 王俊凯</td>
+            <td style="text-align:center" rowspan=2>10:00-12:00 王俊凯 (20)</td>
         </tr>
         <tr>
             <td style="text-align:center">11:00-12:00 鲜于中之</td>
@@ -261,16 +268,16 @@ guidance!
 
 #### Professors
 
-- **Yong Hu** _Southern University of Science and Technology_
-- **Yifei Zhu** _Southern University of Science and Technology_
+- **Yong Hu 胡勇** _Southern University of Science and Technology_
+- **Yifei Zhu 朱一飞** _Southern University of Science and Technology_
 
 #### Students
 
-- **Zhou Fang** _Southern University of Science and Technology_
-- **Shenguanlin Lin** _Southern University of Science and Technology_
-- **Zijie Wen** _Southern University of Science and Technology_
-- **Xiaowei Ye** _Polytech, Paris_
-- **Yuyang Zhang** _Southern University of Science and Technology_
+- **Zhou Fang 方舟** _Southern University of Science and Technology_
+- **Shenguanlin Lin 林沈冠霖** _Southern University of Science and Technology_
+- **Zijie Wen 文子杰** _Southern University of Science and Technology_
+- **Yuyang Zhang 张雨洋** _Southern University of Science and Technology_
+- **Xiaowei Ye 叶骁炜** _Polytech, Paris, To Be Confirmed_
 
 ### Timetable
 
