@@ -315,9 +315,7 @@ Reference: Singular intersection homology, Greg Friedman, [https://www.cambridge
 
 ## Registration
 
-We welcome teachers/students from other colleges and institutes to attend offline. Please fill in the registration form for college entrance and further affairs.
-
-![Registration Form](./reg-qr.jpg)
+Our offline registration has closed. However, you can still attend via online meetings.
 
 ## Online Attendance
 
