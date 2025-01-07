@@ -245,9 +245,9 @@ The audience should have foundational knowledge of quantum physics and statistic
 
 #### 21. TBA - Hai Lin (林海)
 
-**Abstract:** TBA
+**Abstract:** Gauge/gravity duality is a nontrivial duality between quantum theory with gravity in higher dimensions and quantum system in lower dimensions. Examples include specific variant of Yang-Mills theory in 3+1d, which is a cousin of quantum chromodynamics in 3+1d, and its gravity dual. The method is instrumental for computing quantum gravity, and for computing QFTs and quantum systems from the dual side. I will talk about dictionaries in the gauge/gravity duality, involving heavy states among other aspects. The coherent state constructions can be utilized to describe heavy states. The determinant operators can be used to describe giant gravitons. Some explicit finite N quantities can be computed by giant gravitons, e.g. partition functions, indices, correlators, including line defect correlators. Formalisms of giant graviton expansion are analyzed. An incomplete list of relevant historical references could be accessed in: e.g. arXiv:2405.14564, 2212.14002, 2203.15820, 2206.06524, 2312.16751, 1702.03011, 1705.10776, 2402.19452, and references therein.
 
-**Biography:** TBA
+**Biography:** Hai Lin is a professor of Shing-Tung Yau center of Southeast University and School of Mathematics, Southeast University. He received his B.S. at Peking University and Ph.D. at Princeton University. Hai Lin works in high energy theory, gauge/gravity duality, quantum field theory, quantum gravity, mathematical aspects of quantum theory, and areas in mathematical physics.
 
 #### 22. TBA - Hongbo Lin (林宏博)
 
