@@ -112,11 +112,11 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
 
 **Biography:** Zhong-Zhi Xianyu is an associate professor at the Department of Physics, Tsinghua University. He obtained his Ph.D. in 2015 from Tsinghua University and was a postdoc at Harvard University from 2015 to 2020. He works in theoretical particle physics and cosmology. His recent research interests include cosmological collider physics, quantum field theory and amplitude techniques in curved spacetime, new physics in the early universe and in astrophysical systems, gravitational wave astronomy, etc.
 
-#### 3. TBA - Yang Zhou (周洋)
+#### 3. A New Formula on Defect in Quantum Field Theory - Yang Zhou (周洋)
 
-**Abstract:** TBA
+**Abstract:** We propose a closed formula for surface defect contribution to supersymmetric Renyi entropy, valid for all N and all representations, in 6d (2,0) theories. As a byproduct we also derive a closed formula for defect contribution to supersymmetric Casimir energy. We provide various evidences and also consistent checks for these formulas. This talk is based on work in progress with PhD students Zixiao Huang and Ma-Ke Yuan.
 
-**Biography:** TBA
+**Biography:** Prof. Yang Zhou obtained his PhD in Institute of Theoretical Physics, CAS. He joined Fudan University in 2017 and received tenure in 2023. Before joining Fudan, he was a postdoc in Tel Aviv University. He mainly works on quantum field theory and string theory, being one of the first who discovered the supersymmetric entanglement structure of various dimensional SCFTs as well as the correspondence to BPS topological black holes. His recent works also include entanglement structure for theories with defects, multipartite mixed state generalization of Ryu-Takayanagi, holographic models for evaporating black holes as well as cosmology.
 
 #### 4. A short introduction to effective field theory of topological orders in higher dimensions - Ye Peng (叶鹏)
 
@@ -151,9 +151,9 @@ Attendees are expected to have a basic understanding of colledge-level physics, 
 
 #### 7. Axions: From theoretical prediction to dark matter candidates - Allan Mo (莫雨波)
 
-**Abstract:** TBA
+**Abstract:** Motivated by current status of dark matter search, we discuss the new dark matter production mechanism through the cosmic phase transition dynamics and its associated gravitational wave signals.
 
-**Biography:** TBA
+**Biography:** Fa Peng Huang (黄发朋) is an Associate Professor and Ph.D. supervisor at Sun Yat-sen University. After receiving his Ph.D. from Peking University in 2015, he conducted postdoctoral research at the Institute of High Energy Physics, the Institute for Basic Science in Korea, and Washington University in St. Louis, USA. In 2021, he returned to China to join the School of Physics and Astronomy. His research focuses on particle cosmology, particle astrophysics, and gravitational wave physics. He has published over 30 papers in journals such as Phys. Rev. Lett. and Phys. Rev. D. His work primarily explores the properties and cosmological effects (such as the generation of matter-antimatter asymmetry and dark matter) of two crucial scalar particles in fundamental physics—the Higgs particle and the axion—using complementary signals from gravitational waves, radio telescopes, and particle colliders.
 
 #### 8. Brewing the Universe: Understanding Dark Matter Mechanisms and Gravitational Wave Signals through Coffee-Making Analogies - Fa Peng Huang (黄发朋)
 
@@ -243,7 +243,7 @@ Theoretical physics community in the past half century has witnessed remarkable 
 
 The audience should have foundational knowledge of quantum physics and statistical mechanics as a prerequisite. As some further explorations, readers may find it helpful to consult arXiv:2006.06872, arXiv:2201.03096, and arXiv:2410.14414 (also famous lecture series taught by Hartman, Hong Liu, Susskind, ....).  Our main reference will be arxiv:2412.16795 "Introduction to Black Hole Thermodynamics" recently released by the prominent theorical physicist Prof. Edward Witten.
 
-#### 21. TBA - Hai Lin (林海)
+#### 21. Dictionaries in gauge/gravity duality - Hai Lin (林海)
 
 **Abstract:** Gauge/gravity duality is a nontrivial duality between quantum theory with gravity in higher dimensions and quantum system in lower dimensions. Examples include specific variant of Yang-Mills theory in 3+1d, which is a cousin of quantum chromodynamics in 3+1d, and its gravity dual. The method is instrumental for computing quantum gravity, and for computing QFTs and quantum systems from the dual side. I will talk about dictionaries in the gauge/gravity duality, involving heavy states among other aspects. The coherent state constructions can be utilized to describe heavy states. The determinant operators can be used to describe giant gravitons. Some explicit finite N quantities can be computed by giant gravitons, e.g. partition functions, indices, correlators, including line defect correlators. Formalisms of giant graviton expansion are analyzed. An incomplete list of relevant historical references could be accessed in: e.g. arXiv:2405.14564, 2212.14002, 2203.15820, 2206.06524, 2312.16751, 1702.03011, 1705.10776, 2402.19452, and references therein.
 
