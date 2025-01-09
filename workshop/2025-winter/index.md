@@ -2,7 +2,7 @@
 
 ## Physics Branch
 
-The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 10, 2025, at the Southern University of Science and Technology. This student-organized initiative seeks to facilitate inter-institutional academic exchange and will feature a diverse array of presentations encompassing topics such as Cosmology, Field Theory, Quantum Information and Gravity. The program includes lectures delivered by nine esteemed professors and researchers, as well as over ten student presentations representing 10 universities and research institutes.
+The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 10, 2025, at the Southern University of Science and Technology. This student-organized initiative seeks to facilitate inter-institutional academic exchange and will feature a diverse array of presentations encompassing topics such as Cosmology, Field Theory, Quantum Information and Gravity. The program includes lectures delivered by eight esteemed professors and researchers, as well as over ten student presentations representing 10 universities and research institutes.
 
 ### Speakers
 
@@ -102,9 +102,9 @@ The 2025 Winter CMP Workshop Physics branch is scheduled to be held on January 1
 
 #### 1. From Ladder Operator to Supersymmetry Quantum Mechanics - Yutao Ji (冀宇韬)
 
-**Abstract:** TBA
+**Abstract:** This lecture lasts for one hour, the main content is more basic. The main line of the lecture is to explore how to find potential functions with algebraic solutions and their characteristics from the ladder operator technique in quantum mechanics. In doing so, we will introduce an approach that incorporates the idea of supersymmetric quantum mechanics. If time permits, the presentation will use this approach as an example to solve several typical quantum mechanical problems.
 
-**Biography:** TBA
+**Biography:** JI Yutao is a second-year undergraduate student at the Southern University of Science and Technology, and will graduate from the university if there is no accident.
 
 #### 2. Recent progress in cosmological collider and cosmological amplitudes - Zhong-Zhi Xianyu (鲜于中之)
 
@@ -151,15 +151,15 @@ Attendees are expected to have a basic understanding of colledge-level physics, 
 
 #### 7. Axions: From theoretical prediction to dark matter candidates - Allan Mo (莫雨波)
 
-**Abstract:** Motivated by current status of dark matter search, we discuss the new dark matter production mechanism through the cosmic phase transition dynamics and its associated gravitational wave signals.
+**Abstract:** Axions are hypothetical particles proposed to resolve the strong CP problem in quantum chromodynamics and are considered strong candidates for dark matter. This presentation introduces their theoretical origin through the Peccei-Quinn mechanism, their key properties, and their cosmological role. We highlight axion production in the early universe and their potential as cold dark matter. Current and future experimental efforts, such as ADMX and CAST, are also discussed. This talk provides a concise overview of axions, linking theory to ongoing searches and their significance in addressing fundamental physics challenges.
 
-**Biography:** Fa Peng Huang (黄发朋) is an Associate Professor and Ph.D. supervisor at Sun Yat-sen University. After receiving his Ph.D. from Peking University in 2015, he conducted postdoctoral research at the Institute of High Energy Physics, the Institute for Basic Science in Korea, and Washington University in St. Louis, USA. In 2021, he returned to China to join the School of Physics and Astronomy. His research focuses on particle cosmology, particle astrophysics, and gravitational wave physics. He has published over 30 papers in journals such as Phys. Rev. Lett. and Phys. Rev. D. His work primarily explores the properties and cosmological effects (such as the generation of matter-antimatter asymmetry and dark matter) of two crucial scalar particles in fundamental physics—the Higgs particle and the axion—using complementary signals from gravitational waves, radio telescopes, and particle colliders.
+**Biography:** Allan Mo is an undergraduate student in Department of Physics,  SUSTech, works with Prof. Christina Gao in SUSTech, and Shenghua Yu in the National Astronomical Observatories of the Chinese Academy of Sciences. He is interested in the research of cosmology, dark matter and gravitational waves.
 
 #### 8. Brewing the Universe: Understanding Dark Matter Mechanisms and Gravitational Wave Signals through Coffee-Making Analogies - Fa Peng Huang (黄发朋)
 
-**Abstract:** TBA
+**Abstract:** Motivated by current status of dark matter search, we discuss the new dark matter production mechanism through the cosmic phase transition dynamics and its associated gravitational wave signals.
 
-**Biography:** TBA
+**Biography:** Fa Peng Huang (黄发朋) is an Associate Professor and Ph.D. supervisor at Sun Yat-sen University. After receiving his Ph.D. from Peking University in 2015, he conducted postdoctoral research at the Institute of High Energy Physics, the Institute for Basic Science in Korea, and Washington University in St. Louis, USA. In 2021, he returned to China to join the School of Physics and Astronomy. His research focuses on particle cosmology, particle astrophysics, and gravitational wave physics. He has published over 30 papers in journals such as Phys. Rev. Lett. and Phys. Rev. D. His work primarily explores the properties and cosmological effects (such as the generation of matter-antimatter asymmetry and dark matter) of two crucial scalar particles in fundamental physics—the Higgs particle and the axion—using complementary signals from gravitational waves, radio telescopes, and particle colliders.
 
 #### 9. Dark matter, dark energy and their impact on large-scale structure of the Universe - Qi Yang (杨祺)
 
@@ -183,7 +183,7 @@ Attendees are expected to have a basic understanding of colledge-level physics, 
 
 **Abstract:** In this lecture, I will focus on AdS Gravity from the point of view of Stress Tensor and other conservation current. I will revisit the basic facts about the quasilocal stress tensor and the asymptotic symmetry in gravitational systems. Then I will discuss the correspond between Long-Range Force and CFT currents. Finally I will propose a procedure for computing the boundary stress tensor associated with a gravitating system in asymptotically AdS space (AdS<sub>3</sub> and AdS<sub>5</sub>). Via the AdS/CFT correspondence, the result is interpretable as the expectation value of the stress tensor in a quantum conformal field theory. The two dimensional stress tensor transforms with a Schwarzian derivative and the expected central charge. We also find a nonzero ground state energy for global AdS<sub>5</sub>, and show that it exactly matches the Casimir energy of the dual N=4 super Yang-Mills theory on S3×R.
 
-**Biography:** TBA
+**Biography:** A current student in Southern University of Science and Technology. Last year, he attended a research program in Shanghai Institute for Mathematics and Interdisciplinary Science (SIMIS) in Fudan University.
 
 #### 13. Holographic correlators from analytic bootstrap - Xinan Zhou (周稀楠)
 
@@ -205,7 +205,7 @@ Following our modified approach, we get the following two results. First, we sho
 
 **Abstract:** In this lecture, we will frist introduce the general setting of quantum geometry in order to reveal that the imaginary part of quantum geometry tensor is excatly the Berry curvature. Then we will review the basic concepts such as the Berry phase and the Berry curvature. Finally, we will show the implication of quantum geometry both in semiclassical wave packet dynamics and the Perturbation theories based on the ac Hall effect.
 
-**Biography:** TBA
+**Biography:** Renjie Tong is a first-year undergraduate student at SUSTech.
 
 #### 16. Quantum Metrology with Many-Body States - Hu Zhiyao (胡知遥)
 
@@ -231,9 +231,11 @@ Ref: J. Yao, Y.-Z. You, ShadowGPT: Learning to Solve Quantum Many-Body Problems 
 
 #### 19. Conservation Charge in Curved Space-time: From Static Space-time to Asymptotic Symmetry - Yunke Zhao (赵云柯)
 
-**Abstract:** TBA
+**Abstract:** Defining the conserved charge in general relativity is a subtle issue, often referred to as the mass problem in GR. This longstanding challenge has been a topic of discussion since the inception of general relativity and continues to present many mysteries today. It has wide-ranging applications and serves as a source of inspiration for contemporary theoretical research, including areas such as black hole physics and the holographic duality of gravity.
 
-**Biography:** TBA
+In this talk, we will start with static space-time, where the gravitational field does not evolve over time. In such a framework, the conservation of energy must be considered separately for matter fields and the gravitational field. We will introduce the conservation charge for matter fields in static space-time, as well as the concept of Komar mass. Following this, I will discuss various attempts to define mass in general relativity for space-times that asymptotically approach Minkowski space, including the well-known ADM mass. Finally, I will explore the connection between ADM mass and asymptotic symmetry.
+
+**Biography:** ZHAO Yunke is a third-year undergraduate student in the Southern University of Science and Technology (SUSTech). From his sophomore year to now, he researches in theoretical cosmology under the guidance of Prof. Sebastian Garcia-Saenz at SUSTech. His research interests include theoretical cosmology and gravity physics, with a focus on gravitational singularity problems and cosmic inflation. He is also interested in the mass problems in GR and Quantum approach to gravitational singularity problems.
 
 #### 20. An Introduction to Blackhole Thermodynamics - Junkai Wang (王俊凯)
 
@@ -249,11 +251,11 @@ The audience should have foundational knowledge of quantum physics and statistic
 
 **Biography:** Hai Lin is a professor of Shing-Tung Yau center of Southeast University and School of Mathematics, Southeast University. He received his B.S. at Peking University and Ph.D. at Princeton University. Hai Lin works in high energy theory, gauge/gravity duality, quantum field theory, quantum gravity, mathematical aspects of quantum theory, and areas in mathematical physics.
 
-#### 22. TBA - Hongbo Lin (林宏博)
+#### 22. Scattering Amplitude Method in Post-Minkowskian Expansion - Hongbo Lin (林宏博)
 
-**Abstract:** TBA
+**Abstract:** In this talk, I will breifly introduce two promising methods initially developed to calculate gravitational wave form of binary mergers: Wordline EFT and KMOC Formalism. Nevertheless, they show growing calculation potential in more general setups. In particular, the latter formalism, related to In-In formalism of scattering amplitudes and path integral, is recently found to be naturally consistent with Post-Minkowskian expansion and is able to efficiently extract classical contribution from quantum scattering amplitudes.
 
-**Biography:** TBA
+**Biography:** LIN Hongbo is a third-year undergraduate student in Southern University of Science and Technology (SUSTech). He researches in classical gravity under the guidance of Prof. Sebastian Garcia-Saenz at SUSTech.
 
 ![Poster](./poster.jpg)
 
@@ -277,17 +279,49 @@ guidance!
 - **Shenguanlin Lin 林沈冠霖** _Southern University of Science and Technology_
 - **Zijie Wen 文子杰** _Southern University of Science and Technology_
 - **Yuyang Zhang 张雨洋** _Southern University of Science and Technology_
-- **Xiaowei Ye 叶骁炜** _Polytech, Paris, To Be Confirmed_
 
 ### Timetable
 
-**TBA**
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:center">Jan. 10</th>
+            <th style="text-align:center">Jan. 11</th>
+            <th style="text-align:center">Jan. 12</th>
+            <th style="text-align:center">Jan. 13</th>
+            <th style="text-align:center">Jan. 14</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center">-</td>
+            <td style="text-align:center">10:00-12:00 方舟</td>
+            <td style="text-align:center">10:00-12:00 林沈冠霖</td>
+            <td style="text-align:center">10:00-12:00 张雨洋</td>
+            <td style="text-align:center">-</td>
+        </tr>
+        <tr>
+            <td style="text-align:center" colspan=5>Lunch</td>
+        </tr>
+            <td style="text-align:center">14:00-16:00 文子杰</td>
+            <td style="text-align:center">14:00-16:00 朱一飞</td>
+            <td style="text-align:center">-</td>
+            <td style="text-align:center">14:00-16:00 胡勇</td>
+            <td style="text-align:center">-</td>
+        </tr>
+        <tr>
+            <td style="text-align:center" colspan=5>Dinner</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Topics
 
-#### 1. TBA - Zijie Wen (文子杰)
+#### 1. The probability threshold phenomenon of a randomly generated graph containing a specific structure - Zijie Wen (文子杰)
 
-**Abstract:** TBA
+**Abstract:** 我们将会介绍 Erdős-Rényi 随机图模型 (G(n,p))，其中 n 为顶点数，p 为每条边存在的概率。出人意料的是，当概率在连续变化的时候，许多图属性（如连通性、包含三角形等）在 G(n,p) 中会表现出阈值现象，即当 p 达到某个临界值时，该属性会突然出现或消失。 
+
+本讲座将围绕 Bollobás-Thomason 定理和 Kahn-Kalai 猜想展开，并说明这些现象变化的规律。
 
 #### 2. A general introduction to intersection homology - Zhou Fang (方舟)
 
@@ -319,7 +353,7 @@ Our offline registration has closed. However, you can still attend via online me
 
 ## Online Attendance
 
-We will host real-time online meetings, and recordings will be uploaded to [bilibili](https://space.bilibili.com/2050647467). For in-time annuncement, please join the QQ Group
+**Tencent Meeting** [https://meeting.tencent.com/dm/2ilKD3m2CPX9](https://meeting.tencent.com/dm/2ilKD3m2CPX9) 932-5336-9481
 
 ![Group QR](./group-qr.jpg)
 
